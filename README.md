@@ -1,5 +1,4 @@
-<p align="center"><img src="https://ws3.sinaimg.cn/large/006tKfTcly1fln7tda4nnj30go0bcq39.jpg"></p>
-<p align="center"><a href="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"></a></p>
+# Express Mix
 
 > Express Mix 是一套基于 Laravel Mix 和 Express 的后端渲染多页应用工程化脚手架。
 
