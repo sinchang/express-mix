@@ -28,6 +28,7 @@ npm run build // build static files
 
 - [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)
 - [Express](https://github.com/expressjs/express)
+- [Egg Mix](https://github.com/sinchang/egg-mix)
 
 ## License
 
