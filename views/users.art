@@ -1,0 +1,15 @@
+{{extend './layout.art'}}
+
+{{block 'content'}}
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<div id="app">
+  <ul v-if="users.length">
+    <li v-for="user in users" :key="user.id">${ user.username }</li>
+  </ul>
+</div>
+{{/block}}
+
+{{block 'js'}}
+{{@ javascriptTag('/js/users.js')}}
+{{/block}}

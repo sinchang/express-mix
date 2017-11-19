@@ -1,0 +1,16 @@
+{{extend './layout.art'}}
+
+{{block 'content'}}
+<img src="images/express-logo.png">
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<div class="avatar"></div>
+<div id="app">
+  <p>${ post.title }</p>
+  <p>${ post.body }</p>
+</div>
+{{/block}}
+
+{{block 'js'}}
+{{@ javascriptTag('/js/index.js')}}
+{{/block}}

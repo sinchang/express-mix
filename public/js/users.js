@@ -1,0 +1,1 @@
+webpackJsonp([2],{1:function(e,t,n){e.exports=n("xpxd")},xpxd:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s=n("I3G/"),a=n.n(s),o=n("mtWM"),r=n.n(o);new a.a({delimiters:["${","}"],el:"#app",data:{users:[]},created:function(){var e=this;r.a.get("https://jsonplaceholder.typicode.com/users").then(function(t){e.users=t.data})}})}},[1]);
